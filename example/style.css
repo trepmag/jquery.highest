@@ -1,0 +1,8 @@
+.example-container div {
+  float:left;
+  min-width:200px;
+  width: 20%;
+  margin: 1em;
+  padding: 1em;
+  border: #ddd .4em dotted;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>jQuery Highest example</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link type="text/css" rel="stylesheet" href="style.css" media="only screen" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.3.2.js"></script>
+    <script src="../jquery.highest.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $('.example-container div').highest({window_min_width: 845});
+      });
+    </script>
+  </head>
+  <body>
+    <footer>
+      <h1>jQuery Highest</h1>
+      <p>jQuery Highest is a jQuery plugin which set the height of all matching elements to the highest found.</p>
+    </footer>
+    <section>
+      <h2>Example</h2>
+      <p>In this example the script is setup with the {window_min_width: 845} option which tell the plugin to stop applying the height to the highest when the window size is lesser than 845px (Try resizing the window to see this behavior).</p>
+      <div class="example-container">
+        <div class="box1">
+          <h3>Box 1</h3>
+          <p>Sed laeditur hic coetuum magnificus splendor levitate paucorum incondita, ubi nati sunt non reputantium, sed tamquam indulta licentia vitiis ad errores lapsorum ac lasciviam. ut enim Simonides lyricus docet, beate perfecta ratione vieturo ante alia patriam esse convenit gloriosam.</p>
+        </div>
+        <div class="box2">
+          <h3>Box 2</h3>
+          <p>Thalassius vero ea tempestate praefectus praetorio praesens ipse quoque adrogantis ingenii, considerans incitationem eius ad multorum augeri discrimina, non maturitate vel consiliis mitigabat, ut aliquotiens celsae potestates iras principum molliverunt, sed adversando iurgandoque cum parum congrueret, eum ad rabiem potius evibrabat, Augustum actus eius exaggerando creberrime docens, idque, incertum qua mente, ne lateret adfectans. quibus mox Caesar acrius efferatus, velut contumaciae quoddam vexillum altius erigens, sine respectu salutis alienae vel suae ad vertenda opposita instar rapidi fluminis irrevocabili impetu ferebatur.</p>
+        </div>
+        <div class="box3">
+          <h3>Box 3</h3>
+          <p>Dumque ibi diu moratur commeatus opperiens, quorum translationem ex Aquitania verni imbres solito crebriores prohibebant auctique torrentes, Herculanus advenit protector domesticus, Hermogenis ex magistro equitum filius, apud Constantinopolim, ut supra rettulimus, populari quondam turbela discerpti. quo verissime referente quae Gallus egerat, damnis super praeteritis maerens et futurorum timore suspensus angorem animi quam diu potuit emendabat.</p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
